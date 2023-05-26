@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Apagar Contato";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Tem certeza de que deseja apagar o contato?</h1>
+
+    <div class="button-group">
+        @Html.ActionLink("Cancelar", "Index", "Contato", new { @class = "btn btn-secondary"})
+        @Html.ActionLink("Confirmar", "ApagarConfirmacao", "Contato", new { @class = "btn btn-danger" })
+    </div>
+</div>

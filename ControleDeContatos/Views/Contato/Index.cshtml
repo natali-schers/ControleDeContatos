@@ -1,0 +1,61 @@
+﻿@{
+    ViewData["Title"] = "Contatos";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Lista de Contatos:</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">#</th>
+                <th scope="col">Nome</th>
+                <th scope="col">E-mail</th>
+                <th scope="col">Celular</th>
+                <th scope="col">Ações</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th scope="row">1</th>
+                <td>Natali Schers</td>
+                <td>natalischers@gmail.com</td>
+                <td>(11) 91047-7782</td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        @Html.ActionLink("Editar", "Editar", "Contato", new { @class = "btn btn-primary" })
+                        @Html.ActionLink("Apagar", "Apagar", "Contato", new { @class = "btn btn-danger" })
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">2</th>
+                <td>Leonardo Schers</td>
+                <td>leonardoschers@gmail.com</td>
+                <td>(11) 96845-8176</td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        @Html.ActionLink("Editar", "Editar", "Contato", new { @class = "btn btn-primary" })
+                        @Html.ActionLink("Apagar", "Apagar", "Contato", new { @class = "btn btn-danger" })
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <th scope="row">3</th>
+                <td>Priscila G. Martins</td>
+                <td>priscilagmartins@gmail.com</td>
+                <td>(11) 98430-9384</td>
+                <td>
+                    <div class="btn-group" role="group" aria-label="Basic example">
+                        @Html.ActionLink("Editar", "Editar", "Contato", new { @class = "btn btn-primary" } )
+                        @Html.ActionLink("Apagar", "Apagar", "Contato", new { @class = "btn btn-danger" })
+                    </div>
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<div class="text-end">
+    @Html.ActionLink("Criar Contato", "Criar", "Contato", new { @class = "btn btn-success" })
+</div>

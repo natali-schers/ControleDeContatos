@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33122.133
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleDeContatos", "ControleDeContatos\ControleDeContatos.csproj", "{6E751B74-8386-439F-9AC3-ADFB1FA79BE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ControleDeContatos.Tests", "ControleDeContatos.Tests\ControleDeContatos.Tests.csproj", "{7E5E49E7-FB0C-4FBD-B9A5-69F558A8DEDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6E751B74-8386-439F-9AC3-ADFB1FA79BE8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E751B74-8386-439F-9AC3-ADFB1FA79BE8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E751B74-8386-439F-9AC3-ADFB1FA79BE8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E751B74-8386-439F-9AC3-ADFB1FA79BE8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7E5E49E7-FB0C-4FBD-B9A5-69F558A8DEDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7E5E49E7-FB0C-4FBD-B9A5-69F558A8DEDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7E5E49E7-FB0C-4FBD-B9A5-69F558A8DEDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7E5E49E7-FB0C-4FBD-B9A5-69F558A8DEDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F338772-CB19-4B30-A5FC-7E7A360DFAF9}
+	EndGlobalSection
+EndGlobal

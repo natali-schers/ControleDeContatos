@@ -1,0 +1,26 @@
+﻿@{
+    ViewData["Title"] = "Cadastrar Contato";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Cadastrar Contato:</h1>
+</div>
+
+<div>
+    <form>
+        <div class="form-group">
+            <label for="exampleInputEmail1">Nome</label>
+            <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite o nome do contato">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputEmail1">E-mail</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Digite o email do contato">
+        </div>
+        <div class="form-group">
+            <label for="exampleInputPassword1">Telefone</label>
+            <input type="tel" class="form-control" id="exampleInputPassword1" placeholder="Digite o número de telefone do contato">
+        </div>
+        @Html.ActionLink("Voltar", "Index", "Contato", new { @class = "btn btn-secondary" })
+        <button type="submit" class="btn btn-primary">Cadastrar</button>
+    </form>
+</div>
